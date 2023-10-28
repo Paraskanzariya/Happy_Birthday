@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Happy Birthday</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #FF4081, #3F51B5);
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h1 {
+            color: #e60751;
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .balloons {
+            font-size: 36px;
+            margin-top: 20px;
+        }
+
+        .balloon {
+            display: inline-block;
+            margin: 10px;
+            animation: float 3s ease-in-out infinite;
+            transform-origin: top;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-30px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Happy Birthday! &#128525;&#128151;</h1>
+        <p>Wishing you a day filled with joy and celebration.</p>
+        <div class="balloons">
+            <span class="balloon">🎈</span>
+            <span class="balloon">🎈</span>
+            <span class="balloon">🎈</span>
+        </div>
+    </div>
+    <div>
+        <iframe width="560" height="600" src="Happy_Birthday.mp4" frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+
+</html>
